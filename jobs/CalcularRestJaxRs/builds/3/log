@@ -1,0 +1,132 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/workspace/CalcularRestJaxRs
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git # timeout=10
+Fetching upstream changes from https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c8f3f7a63393e00e7bce61948c3a959eef64f32a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c8f3f7a63393e00e7bce61948c3a959eef64f32a
+First time build. Skipping changelog.
+[CalcularRestJaxRs] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean install jetty:stop jetty:run
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for br.com.cpim.test:CalculoRestJaxRs:war:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 30, column 12
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CalculoRestJaxRs 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CalculoRestJaxRs ---
+[INFO] Deleting /var/jenkins_home/workspace/CalcularRestJaxRs/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CalculoRestJaxRs ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CalcularRestJaxRs/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ CalculoRestJaxRs ---
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/CalcularRestJaxRs/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CalculoRestJaxRs ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CalcularRestJaxRs/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ CalculoRestJaxRs ---
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/CalcularRestJaxRs/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CalculoRestJaxRs ---
+[INFO] Surefire report directory: /var/jenkins_home/workspace/CalcularRestJaxRs/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.logicbig.example.CalcularTest
+Oct 16, 2016 6:43:28 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>
+INFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/
+Calculo de multiplicacao [a=2.0, b=2.0, total = 4.0, erro = OK]
+Oct 16, 2016 6:43:33 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>
+INFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/
+Calculo de adicao [a=1.0, b=1.0, total = 2.0, erro = OK]
+Oct 16, 2016 6:43:34 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>
+INFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/
+Calculo de divisao [a=4.0, b=0.0, total = 0.0, erro = Erro divisao por zero]
+Oct 16, 2016 6:43:37 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>
+INFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/
+Calculo de subtracao [a=1.0, b=1.0, total = 0.0, erro = OK]
+Oct 16, 2016 6:43:37 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>
+INFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/
+Calculo de divisao [a=4.0, b=2.0, total = 2.0, erro = OK]
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.565 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ CalculoRestJaxRs ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [CalculoRestJaxRs] in [/var/jenkins_home/workspace/CalcularRestJaxRs/target/rest-create-resources]
+[INFO] Processing war project
+[INFO] Webapp assembled in [1075 msecs]
+[INFO] Building war: /var/jenkins_home/workspace/CalcularRestJaxRs/target/rest-create-resources.war
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-dependency-plugin:2.3:copy (default) @ CalculoRestJaxRs ---
+[INFO] Configured Artifact: org.eclipse.jetty:jetty-runner:9.3.3.v20150827:jar
+[INFO] Copying jetty-runner-9.3.3.v20150827.jar to /var/jenkins_home/workspace/CalcularRestJaxRs/target/dependency/jetty-runner.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ CalculoRestJaxRs ---
+[INFO] Installing /var/jenkins_home/workspace/CalcularRestJaxRs/target/rest-create-resources.war to /var/jenkins_home/.m2/repository/br/com/cpim/test/CalculoRestJaxRs/1.0-SNAPSHOT/CalculoRestJaxRs-1.0-SNAPSHOT.war
+[INFO] Installing /var/jenkins_home/workspace/CalcularRestJaxRs/pom.xml to /var/jenkins_home/.m2/repository/br/com/cpim/test/CalculoRestJaxRs/1.0-SNAPSHOT/CalculoRestJaxRs-1.0-SNAPSHOT.pom
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jetty-maven-plugin:9.2.11.v20150529:stop (default-cli) @ CalculoRestJaxRs ---
+[INFO] Jetty not running!
+[INFO] 
+[INFO] >>> jetty-maven-plugin:9.2.11.v20150529:run (default-cli) > test-compile @ CalculoRestJaxRs >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CalculoRestJaxRs ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CalcularRestJaxRs/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ CalculoRestJaxRs ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CalculoRestJaxRs ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CalcularRestJaxRs/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ CalculoRestJaxRs ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< jetty-maven-plugin:9.2.11.v20150529:run (default-cli) < test-compile @ CalculoRestJaxRs <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jetty-maven-plugin:9.2.11.v20150529:run (default-cli) @ CalculoRestJaxRs ---
+[INFO] Logging initialized @42048ms
+[INFO] Configuring Jetty for project: CalculoRestJaxRs
+[INFO] webAppSourceDirectory not set. Trying src/main/webapp
+[INFO] webAppSourceDirectory /var/jenkins_home/workspace/CalcularRestJaxRs/src/main/webapp does not exist. Trying /var/jenkins_home/workspace/CalcularRestJaxRs/target/webapp-tmp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = /var/jenkins_home/workspace/CalcularRestJaxRs/target/classes
+[INFO] Configuring Jetty from xml configuration file = /var/jenkins_home/workspace/CalcularRestJaxRs/jetty.xml
+[INFO] Context path = /
+[INFO] Tmp directory = /var/jenkins_home/workspace/CalcularRestJaxRs/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = null
+[INFO] Webapp directory = /var/jenkins_home/workspace/CalcularRestJaxRs/target/webapp-tmp
+[INFO] jetty-9.2.11.v20150529
+[INFO] Started o.e.j.m.p.JettyWebAppContext@661d6bb6{/,file:/var/jenkins_home/workspace/CalcularRestJaxRs/target/webapp-tmp/,AVAILABLE}{file:/var/jenkins_home/workspace/CalcularRestJaxRs/target/webapp-tmp/}
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] !RequestLog
+[INFO] Started ServerConnector@39c7fb0b{HTTP/1.1}{0.0.0.0:8888}
+[INFO] Started @47690ms
+[INFO] Started Jetty Server
+[INFO] Starting scanner at interval of 10 seconds.

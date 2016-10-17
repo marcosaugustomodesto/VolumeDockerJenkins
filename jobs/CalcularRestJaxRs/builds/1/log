@@ -1,0 +1,8 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/workspace/CalcularRestJaxRs
+Cloning the remote Git repository
+Cloning repository https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git
+ > git init /var/jenkins_home/workspace/CalcularRestJaxRs # timeout=10
+Fetching upstream changes from https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git +refs/heads/*:refs/remotes/origin/*

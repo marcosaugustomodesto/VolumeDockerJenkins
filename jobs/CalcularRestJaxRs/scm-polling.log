@@ -1,0 +1,8 @@
+Started on Oct 17, 2016 6:43:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision c8f3f7a63393e00e7bce61948c3a959eef64f32a (refs/remotes/origin/master)
+ > git ls-remote -h https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git # timeout=10
+Found 1 remote heads on https://github.com/marcosaugustomodesto/CalculoRestJaxRs.git
+[poll] Latest remote head revision on refs/heads/master is: c8f3f7a63393e00e7bce61948c3a959eef64f32a - already built by 3
+Done. Took 0.88 sec
+No changes
